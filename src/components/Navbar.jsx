@@ -13,7 +13,7 @@ function Navbar() {
       <ul className=" list-none  sm:flex  hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
-            className={`font-popins font-normal cursor-pointer text-[16px] text-white ${
+            className={`font-popins font-normal cursor-pointer hover:text-secondary text-[16px] text-white ${
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
             key={nav.id}
